@@ -89,12 +89,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 const SizedBox(
                   height: 25,
                 ),
-                // Custom_Bottom(
-                //   ontap: () async {
-                //     await HandleOnTap(context);
-                //   },
-                //   text: "Register",
-                // ),
+
                 Custom_Buttom(
                   ontap: () async {
                     if (formkey.currentState!.validate()) {

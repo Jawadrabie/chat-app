@@ -48,6 +48,8 @@ class _ChatPageState extends State<ChatPage> {
             body: Column(children: [
               Expanded(
                 child: ListView.builder(
+
+
                     reverse: true,
                     controller: scrollController,
                     itemCount: messageList.length,

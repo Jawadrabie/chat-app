@@ -39,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
             child: ListView(
               children: [
                 const SizedBox(
-                  height: 100,
+                  height: 75,
                 ),
                 Image.asset(KLogo, height: 100),
                 const Row(
@@ -55,7 +55,7 @@ class _LoginPageState extends State<LoginPage> {
                   ],
                 ),
                 const SizedBox(
-                  height: 100,
+                  height: 75,
                 ),
                 const Row(
                   children: [
@@ -85,7 +85,7 @@ class _LoginPageState extends State<LoginPage> {
                   onchanged: (data) {
                     password = data;
                   },
-                  obscureText: true,
+
                 ),
                 const SizedBox(
                   height: 25,
